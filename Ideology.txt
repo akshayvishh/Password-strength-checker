@@ -1,0 +1,4 @@
+I will be using Python for my backend logic to check the password strength 
+I will use python flask for backend
+I will use flash API
+
