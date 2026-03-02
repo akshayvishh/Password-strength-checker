@@ -1,0 +1,88 @@
+/* Deep Forest Green About Page */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0B3D2E, #082A20);
+    color: #E8F5E9;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 50px;
+    background-color: #082A20;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #A9DFBF;
+}
+
+.nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #E8F5E9;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #27AE60;
+}
+
+/* About Section */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.about-card {
+    width: 600px;
+    padding: 40px;
+    background-color: rgba(20, 90, 50, 0.95);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.6);
+    transition: 0.4s ease;
+}
+
+.about-card:hover {
+    transform: scale(1.02);
+}
+
+.about-card h1 {
+    color: #A9DFBF;
+    margin-bottom: 20px;
+}
+
+.about-card p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.back-btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background-color: #1E8449;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #145A32;
+    transition: 0.2s ease;
+}
+
+.back-btn:hover {
+    background-color: #27AE60;
+}
+
+.back-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #145A32;
+}
