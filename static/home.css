@@ -1,0 +1,134 @@
+/* Deep Forest Green Modern Theme */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0B3D2E;
+    color: #E8F5E9;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 50px;
+    background-color: #082A20;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Logo */
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #A9DFBF;
+    letter-spacing: 1px;
+}
+
+/* Nav Links Container */
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+/* Links */
+.nav-links a {
+    position: relative;
+    text-decoration: none;
+    color: #E8F5E9;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+/* Smooth Hover Color */
+.nav-links a:hover {
+    color: #27AE60;
+}
+
+/* Animated Underline Effect */
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+    background-color: #27AE60;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #A9DFBF;
+}
+
+.hero p {
+    margin-bottom: 25px;
+    color: #C8E6C9;
+}
+
+.main-btn {
+    background-color: #1E8449;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.main-btn:hover {
+    background-color: #27AE60;
+    transform: scale(1.05);
+}
+
+/* Cards Section */
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #145A32;
+    padding: 25px;
+    width: 260px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    background-color: #1E8449;
+}
+
+.card h2 {
+    color: #A9DFBF;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #082A20;
+}
+
+.about-section h2 {
+    color: #A9DFBF;
+}
